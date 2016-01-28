@@ -76,7 +76,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<Input type="hidden" name="id_user" value="<?php echo $m['id']; ?>" />
 			<Input type="text" name="id_user" value="<?php echo $m['username']; ?>" />
 			<Input type="text" name="id_user" value="<?php echo $m['password']; ?>" />&nbsp;&nbsp;&nbsp;
-			<a href="<?php echo base_url() ?>index.php/update?id=<?php echo $m['id'] ?>">ubah</a>
 			<a href="<?php echo base_url() ?>index.php/delete?id=<?php echo $m['id'] ?>">hapus</a>
 			<?php echo "<br>" ?>			
 		<?php endforeach ?>
