@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		// index ini untuk menampilkan record ...
+		// index ini untuk menampilkan record
 		$this->load->model('User_model');
 		$data['databaru'] = $this->User_model->Show_all();
 		$this->load->view('welcome_message',$data);
