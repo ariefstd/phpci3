@@ -34,13 +34,6 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`id`, `username`, `password`, `tanggal`) VALUES
-(1, 'gonzo', '1234', '2016-01-27');
-
---
 -- Indexes for dumped tables
 --
 
